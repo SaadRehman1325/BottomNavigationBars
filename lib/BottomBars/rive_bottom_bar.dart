@@ -1,5 +1,11 @@
-import 'package:bottombars/home/home_screen.dart';
-import 'package:bottombars/search/search_screen.dart';
+import 'package:bottombars/screen1/screen1.dart';
+import 'package:bottombars/screen2/screen2.dart';
+import 'package:bottombars/screen3/screen3.dart';
+import 'package:bottombars/screen4/screen4.dart';
+import 'package:bottombars/screen5/screen5.dart';
+import 'package:bottombars/screen6/screen6.dart';
+import 'package:bottombars/screen7/screen7.dart';
+import 'package:bottombars/screen8/screen8.dart';
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 
@@ -14,13 +20,15 @@ class RiveBottomBar extends StatefulWidget {
 
 class _RiveBottomBarState extends State<RiveBottomBar> {
   RiveAsset selectedbottomNav = bottomNavs.first;
-  List<Widget> _pages = [
-    HomeScreen(),
-    SearchScreen(),
-    // BellScreen(),
-    // TimerScreen(),
-    // UserScreen(),
-    // ChatScreen(),
+  final List<Widget> _pages = const [
+    Screen1(),
+    Screen2(),
+    Screen3(),
+    Screen4(),
+    Screen5(),
+    Screen6(),
+    Screen7(),
+    Screen8()
   ];
 
   @override

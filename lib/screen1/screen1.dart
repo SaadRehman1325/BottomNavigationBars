@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class Screen1 extends StatelessWidget {
+  const Screen1({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
         body: SafeArea(
             bottom: false,
             child: Center(
-              child: Text('Home Screen'),
+              child: Text('Screen 1'),
             )));
   }
 }
