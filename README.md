@@ -1,16 +1,11 @@
-# bottombars
+# Flutter Bottom Bars
 
-A new Flutter project.
+A new Flutter project focused on bottom navigation bars.
 
 ## Getting Started
+The Following are the bottom naviagtion bars present in this project
 
-This project is a starting point for a Flutter application.
+### 1: Rive Navigation Bar
+Dependencies: rive: ^0.11.4
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/SaadRehman1325/BottomNavigationBars/assets/106748944/04c3c50e-dae1-411e-af47-6a95bd05c3b7
